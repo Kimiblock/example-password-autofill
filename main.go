@@ -36,10 +36,10 @@ func homeHandler(w http.ResponseWriter, r *http.Request) {
 	<head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Password Autofill Example</title>
+	<title>Password Login</title>
 	</head>
 	<body>
-	<h1>Password Autofill Example</h1>
+	<h1>Password Login</h1>
 	<form method="POST">
 	<label for="username">Username:</label>
 	<input type="text" id="username" name="username" required>
